@@ -1,10 +1,12 @@
 # Universal Confirm
 
+![Live Example of Universal Confirm Component](https://i.imgur.com/4k0qKvh.gif)
+
 A simple confirm action universal component, made to ease things.
 
 ## Why use it
 
-Pure javascript lightweight library, 100% independent and customizable. You can call it programatically, without worry to connect DOM events with your framework.
+Pure javascript lightweight library, 100% independent and customizable. You can call it programmatically, without worry to connect DOM events with your framework.
 
 ## How to use
 
@@ -50,7 +52,7 @@ export default {
 
 ## How to customize it
 
-By default, it uses bootstrap classes and has an container, an wrapper, an text space and actions space, with Ok or Cancel actions.
+By default, it uses bootstrap classes and has an container, an wrapper, an text space and a actions space, with Ok or Cancel actions.
 
 You can add or remove classes and modify the order directly from `template.js` file. Don't worry, it's just another vanilla way to create components from scratch.
 
