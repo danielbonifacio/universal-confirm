@@ -1,0 +1,35 @@
+body {
+  &.high-contrast {
+    * {
+      background-color: #000 !important;
+      color: #fff !important;
+      border-color: yellow !important;
+    }
+
+    .custom-card {
+      &:hover,
+      &:focus {
+        &::before {
+          box-shadow: 0 0 0 3px rgba(yellow, 1);
+        }
+      }
+    }
+
+    .custom-control-input:focus ~ .custom-control-label::before {
+      box-shadow: 0 0 0 0.2rem rgba(yellow, 1);
+    }
+
+    .custom-select:focus {
+      color: black !important;
+    }
+
+    .form-control:focus {
+      color: black !important;
+      background-color: #fff !important;
+    }
+
+    .btn:focus {
+      box-shadow: 0 0 0 0.2rem rgba(yellow, 1);
+    }
+  }
+}
